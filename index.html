@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThreeEditor</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .panel {
+      position: absolute;
+      display: grid;
+      width: 25vw;
+      grid-template-columns: repeat(auto-fill, 100px);
+      top: 0;
+      z-index: 1;
+    }
+
+    #threeBox {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #myDom {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+
+    <div id="threeBox"></div>
+
+    <div id="panel" class="panel">
+      <button onclick="add(0)">设置天空</button>
+      <button onclick="add(8)">存储天空</button>
+      <button onclick="add(9)">移除天空</button>
+      <button onclick="add(11)">设置环境贴图</button>
+
+      <button onclick="add(1)">加载gltf</button>
+      <button onclick="add(2)">加载fbx</button>
+      <button onclick="add(3)">加载obj</button>
+      <button onclick="add(6)">设置GUI位置</button>
+      <button onclick="add(7)">gsap动画</button>
+      
+      <button onclick="add(13)">刷新GUI</button>
+      <button onclick="add(14)">截图</button>
+      <button onclick="add(15)">设置变换</button>
+      <button onclick="add(16)">网格</button>
+      <button onclick="add(17)">性能</button>
+      <button onclick="add(18)">按键</button>
+      <button onclick="add(19)">坐标轴</button>
+      <button onclick="add(20)">播放模型动画</button>
+      <button onclick="add(21)">动画暂停</button>
+      <button onclick="add(22)">动画停止</button>
+      <button onclick="add(23)">移除模型动画</button>
+      <button onclick="add(24)">获取省会点</button>
+      <button onclick="add(27)">选择模式</button>
+      <button onclick="add(28)">获取曲线列表</button>
+      <button onclick="add(29)">曲线动画执行</button>
+      <button onclick="add(30)">执行自定义动画</button>
+      <button onclick="add(31)">场景切换</button>
+      <button onclick="add(32)">销毁场景</button>
+      <button onclick="add(33)">加载</button>
+      <button onclick="add(34)">平面扫光</button>
+      <button onclick="add(35)">获取视图</button>
+
+      <button onclick="add(12)">保存</button>
+    </div>
+
+    <div id="myDom">
+      <img src="https://z2586300277.github.io/three-editor/dist/site.png" width="25px" height="25px" />
+    </div>
+
+  </div>
+  
+  <script type="module" src="index.js"></script>
+
+</body>
+
+</html>
