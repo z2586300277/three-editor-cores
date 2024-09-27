@@ -413,7 +413,6 @@ window.add = (k) => {
 
 }
 
-// listFiles('http://192.168.0.11:33/online').then(r => r.forEach(i => threeEditor.setModelFromInfo({ type: 'GLTF',url: 'http://192.168.0.11:33/online/' + i.url})))
 function listFiles(url) {
   function parseFileList(html) {
     const fileList = []
