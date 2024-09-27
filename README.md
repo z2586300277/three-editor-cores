@@ -1,6 +1,10 @@
 # node 18  
 - 这是一个 集成 three.js 等依赖的库 build 打包为一个 js 文件 发布到 npm 仓库使用， 专注 编辑器 造轮子
 
+预览             |  赞助我
+:-------------------------:|:-------------------------:
+[![](https://z2586300277.github.io/3d-file-server/images/threeEditorCores.jpg)](https://z2586300277.github.io/three-editor/dist)  |  ![](https://z2586300277.github.io/three-editor/dist/wx_pay.jpg)
+
 ```js
 
 npm install  three-editor-cores 
