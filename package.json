@@ -1,7 +1,7 @@
 {
   "name": "three-editor-cores",
   "private": false,
-  "version": "0.0.44",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist",
