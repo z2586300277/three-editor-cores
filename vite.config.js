@@ -14,6 +14,12 @@ export default defineConfig({
 
   build: {
 
+    // 配置打包输出到docs目录
+    outDir: 'docs',
+
+    // 不删除目录文件
+    emptyOutDir: false,
+
     lib: {
 
       entry: './lib/main.js',
