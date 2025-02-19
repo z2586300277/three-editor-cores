@@ -4,6 +4,8 @@
 
 ## 注意: 此内核包, 功能齐全, 可随意使用，请不要找我咨询问题，日常较忙。
 
+- 简易使用预览 https://z2586300277.github.io/three-editor-cores/
+
 - Copyright (c) threehub.cn email:2586300277@qq.com All rights reserved.
 
 - 这是一个 集成 three.js 等依赖的库 build 打包为一个 js 文件 发布到 npm 仓库使用， 专注 编辑器 造轮子 （three.js 低代码, 组件化, 内核框架）
