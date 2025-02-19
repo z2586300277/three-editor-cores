@@ -1,6 +1,6 @@
-# node 18  三维编辑器  <img src="https://profile-counter.glitch.me/z2586300277/count.svg" >
+# 🍀Three编辑器  <img src="https://profile-counter.glitch.me/z2586300277/count.svg" >
 
-# Three.js 0.158.0
+#  node 18 Three.js 0.158.0 —— 开源不易，自行打赏🍃
 
 ## 注意: 此内核包, 功能齐全, 可随意使用，请不要找我咨询问题，日常较忙。
 
