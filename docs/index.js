@@ -37890,7 +37890,7 @@ function Ok(i, e) {
   e.add(i, "mode", ["translate", "rotate", "scale"]), e.add(i, "size"), e.add(i, "showX"), e.add(i, "showY"), e.add(i, "showZ"), !i.rotationSnap && (i.rotationSnap = 0), !i.translationSnap && (i.translationSnap = 0), !i.scaleSnap && (i.scaleSnap = 0), e.add(i, "translationSnap"), e.add(i, "rotationSnap"), e.add(i, "scaleSnap");
 }
 const uo = {
-  mode: "选择",
+  mode: "变换",
   openKey: !1,
   keyDown: null,
   keyDownCallback: null,
