@@ -1,4 +1,4 @@
-# 🍀Three编辑器 - 内核  <img src="https://visitor-badge.laobi.icu/badge?page_id=three_editor" >
+# 🍀Three编辑器 - 内核  <img src="https://visitor-badge.laobi.icu/badge?page_id=three_editor" >  <img src="https://komarev.com/ghpvc/?username=threeEditorCoresZ2586300277" >
 
 - ### 编辑器内核 three-editor-cores 1.0.0版本源码 此内核源码开发耗费作者巨大精力。
 
