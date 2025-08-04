@@ -1,5 +1,7 @@
 # 🍀Three编辑器 - 内核  <img src="https://visitor-badge.laobi.icu/badge?page_id=three_editor" >  <img src="https://komarev.com/ghpvc/?username=threeEditorCoresZ2586300277" >
 
+- ### 开源编辑器 https://z2586300277.github.io/three-editor/docs/dist/
+
 - ### 编辑器内核 three-editor-cores 1.0.0版本源码 此内核源码开发耗费作者巨大精力。
 
 - ### 注意: 此内核包, 功能齐全, 拥有 新/旧 编辑器 three-editor 仓库的 所有内置功能。
