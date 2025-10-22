@@ -10,6 +10,22 @@ createScene()
 
 window.onresize = () => threeEditor.viewer.renderSceneResize()
 
+// 作者链接信息交互
+const authorLinkElement = document.querySelector('#authorLink')
+if (authorLinkElement) {
+  // 添加悬停效果
+  authorLinkElement.addEventListener('mouseenter', () => {
+    authorLinkElement.style.background = 'rgba(0,0,0,0.9)'
+    authorLinkElement.style.transform = 'scale(1.05)'
+    authorLinkElement.style.transition = 'all 0.3s ease'
+  })
+  
+  authorLinkElement.addEventListener('mouseleave', () => {
+    authorLinkElement.style.background = 'rgba(0,0,0,0.7)'
+    authorLinkElement.style.transform = 'scale(1)'
+  })
+}
+
 // 初始化函数
 function createScene() {
 
