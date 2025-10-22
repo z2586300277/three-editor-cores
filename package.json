@@ -3,6 +3,26 @@
   "private": false,
   "version": "1.0.0",
   "type": "module",
+  "description": "A powerful Three.js editor core library with comprehensive built-in features for 3D editing",
+  "author": "2586300277@qq.com",
+  "homepage": "https://z2586300277.github.io/three-editor-cores/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/z2586300277/three-editor-cores.git"
+  },
+  "bugs": {
+    "url": "https://github.com/z2586300277/three-editor-cores/issues"
+  },
+  "keywords": [
+    "three.js",
+    "editor",
+    "3d",
+    "webgl",
+    "low-code",
+    "three-editor",
+    "3d-editor",
+    "threejs"
+  ],
   "files": [
     "dist",
     "index.d.ts"
